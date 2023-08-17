@@ -4,15 +4,16 @@ int main() {
     int numbers[] = {10, 20, 30, 40, 50};
     int *ptr;
 
-    // Gán ð?a ch? c?a ph?n t? ð?u tiên trong m?ng cho con tr?
+    // Gï¿½n ï¿½?a ch? c?a ph?n t? ï¿½?u tiï¿½n trong m?ng cho con tr?
     ptr = &numbers[0];
 
-    // S? d?ng con tr? ð? truy c?p và in ra các ph?n t? trong m?ng
+    // S? d?ng con tr? ï¿½? truy c?p vï¿½ in ra cï¿½c ph?n t? trong m?ng
     for (int i = 0; i < 5; i++) {
         printf("Phan tu thu %d: %d\n", i, *ptr);
-        ptr++;  // Di chuy?n con tr? ð?n ph?n t? ti?p theo trong m?ng
+        ptr++;  // Di chuy?n con tr? ï¿½?n ph?n t? ti?p theo trong m?ng
     }
 
     return 0;
+    hieu 
 }
 
